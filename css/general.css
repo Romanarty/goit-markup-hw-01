@@ -11,18 +11,85 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+body {
+  color: #212121;
+}
+
+ul {
+  list-style-type: none;
+}
+
 .hero {
   background-color: #2f303a;
   color: #ffffff;
+  text-align: center;
 }
 .header-link {
   color: #212121;
+  text-decoration: none;
 }
 
 .header-link:hover,
 .header-link:focus {
   color: #2196f3;
 }
-.span {
+span {
   color: #2196f3;
+}
+.studio {
+  color: #fff;
+}
+.contacts-link {
+  color: #757575;
+  text-decoration: none;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #2196f3;
+}
+button {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+main > p {
+  color: #757575;
+}
+footer > p {
+  color: #ffffff;
+}
+footer {
+  background-color: #2f303a;
+  color: #fff;
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.logo {
+  text-decoration: none;
+  color: #000000;
+}
+.logo:hover,
+.logo:focus {
+  text-decoration: underline;
+}
+ul {
+  display: flex;
+  text-align: center;
+}
+header {
+  display: flex;
+  vertical-align: top;
+}
+.team,
+.work {
+  text-align: center;
+}
+.footer-contacts-link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  display: inline-flex;
 }
